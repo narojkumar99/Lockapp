@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhatt9697.lockapp.lockactivity"
+    android:orientation="vertical"
+
+    android:background="#000"
+    android:id="@+id/relativeLayout">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="ENTER-PASSCODE"
+        android:textColor="#f2b809"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:src="@drawable/img2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+
+        android:id="@+id/imageView1" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bhatt9697.lockapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".setimagepattern" />
+        <activity android:name=".confirmpassword" />
+        <activity android:name=".lockactivity" />
+        <activity
+            android:name=".homeactivity"
+            android:label="@string/title_activity_homeactivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".DetailsActivity" />
+        <activity
+            android:name=".SaveGesture"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".GestureListActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".GestureActivity" />
+        <activity android:name=".AppLockSettingsActivity" />
+
+        <service
+            android:name=".services.AppLockService"
+            android:permission="android.permission.GET_TASKS" />
+
+        <activity android:name=".Gesture2"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+
+    android:background="@color/welcomeact"
+    android:id="@+id/relativeLayout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Confirm  password"
+        android:textColor="#f2b809"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="select any 4 images"
+        android:layout_marginTop="90dp"
+        android:textColor="#ff0040"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+
+
+
+
+    <GridView
+
+        android:id="@+id/grid_view1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="175dp"
+        android:columnWidth="20dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="100dp"
+            android:layout_marginTop="90dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/dot"
+            />
+
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_marginTop="90dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/dot"
+            />
+
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/dot"
+            />
+        <ImageView
+            android:id="@+id/dot4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/dot"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        >
+
+
+
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="510dp"
+            android:src="@drawable/backkey"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

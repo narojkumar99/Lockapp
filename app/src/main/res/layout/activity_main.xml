@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/welcomeact"
+    tools:context="com.example.bhatt9697.lockapp.MainActivity"
+    android:orientation="vertical"
+
+
+
+    android:id="@+id/l1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="LockApp"
+        android:textColor="#f2b809"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imglogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Introducing new ways    "
+        android:textColor="#f2b809"
+        android:textSize="30sp" />
+    android:textSize="45sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="to lock your apps   "
+        android:textColor="#f2b809"
+        android:textSize="30sp" />
+    <LinearLayout
+
+        android:layout_marginTop="65dp"
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    <Button
+
+        android:id="@+id/buttonsub"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:background="@drawable/buttonstle"
+        android:text="Set ImageLock"
+        android:onClick="button1"
+        android:textColor="@color/colorAccent" />
+
+
+    <Button
+
+        android:id="@+id/buttonsub1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstle"
+        android:onClick="button2"
+        android:text="Set GestureLock"
+        android:textColor="@color/colorAccent" />
+
+
+
+</LinearLayout>
+
+    </LinearLayout>
