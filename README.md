@@ -1,1 +1,1 @@
-# Lockapp:- android application having gesture-based  screen lock
+# Lockapp:- android applications having gesture-based  screen lock
